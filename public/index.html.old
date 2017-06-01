@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form action="/login.php" method="post">
+	<h1>Login</h1>
+	<div>
+		<label>Username</label>
+		<input type="text" name="username"/>
+		
+		<label>Password</label>
+		<input type="password" name="password"/>
+	</div>
+	<button type="submit">Login</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,81 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ce22c6e6dc146341e4d5581197d02c96",
+    "content-hash": "b36e1626e3483711b2aec3e53507889c",
+    "packages": [
+        {
+            "name": "dapphp/radius",
+            "version": "2.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dapphp/radius.git",
+                "reference": "ede9a0a63dc806eca63d3b166f3897bfdf53a026"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dapphp/radius/zipball/ede9a0a63dc806eca63d3b166f3897bfdf53a026",
+                "reference": "ede9a0a63dc806eca63d3b166f3897bfdf53a026",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "dev-master"
+            },
+            "suggest": {
+                "ext-mcrypt": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dapphp\\Radius\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Drew Phillips",
+                    "email": "drew@drew-phillips.com",
+                    "homepage": "https://drew-phillips.com/"
+                },
+                {
+                    "name": "SysCo/al",
+                    "homepage": "http://developer.sysco.ch/php/"
+                }
+            ],
+            "description": "A pure PHP RADIUS client based on the SysCo/al implementation",
+            "homepage": "https://github.com/dapphp/radius",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "chap",
+                "ms-chap",
+                "ms-chap v2",
+                "pap",
+                "radius",
+                "rfc1994",
+                "rfc2284",
+                "rfc2759",
+                "rfc2865",
+                "rfc2869"
+            ],
+            "time": "2017-02-02 00:42:55"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
